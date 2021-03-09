@@ -1,0 +1,72 @@
+.box-menu{
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.box-link{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 300px;
+	height: 35px;
+	border: 1px solid #CCC;
+	padding: 8px;
+	margin-bottom: 5px;
+	float:left;
+}
+
+.box-link a {
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+
+.t{ height: 35px;
+	margin-top: 7px;
+	width: 100%;}
+
+.box-linkonten{
+	font-family:Arial, Helvetica, sans-serif;
+	width: 850px;
+	min-height: 500px;
+	height: auto;
+	border: 1px solid #CCC;
+	padding: 8px;
+	margin-bottom: 5px;
+	float:right;
+}
+input[type=text],input[type=number], select {
+  width: 80%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button1 {
+	float: right;
+	background-color: #f44336;
+	border: none;
+	color: #fff;
+	padding: 7px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+ } /* Red */ 
+
+input[type=submit] {
+  width: 85%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+

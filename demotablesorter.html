@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript" src="js/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.js"></script>
+<!--cukup satu baris script untuk mengubah
+ table sortable sorter,perhatikan id tablenya -->
+<script type="text/javascript">
+
+$(document).ready(function()
+	{
+		$("#tablemhs").tablesorter();
+	}
+);
+</script>
+</head>
+<body>
+<div align='center'>
+<h3> Klik header untuk mengurutkan data </h3>
+<table id="tablemhs">
+<thead>
+<tr>
+	<th>NIM</th>
+	<th>Nama</th>
+	<th>IPK</th>
+	<th>Jurusan</th>
+	
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>09123</td>
+	<td>Indra Bekti</td>
+	<td>3.30</td>
+	<td>SI</td>
+	
+</tr>
+<tr>
+	<td>09124</td>
+	<td>Candra</td>
+	<td>3.50</td>
+	<td>TI</td>
+	
+</tr>
+<tr>
+	<td>09125</td>
+	<td>Sutarman</td>
+	<td>2.10</td>
+	<td>MI</td>
+	
+</tr>
+
+</tbody>
+</table>
+</div>
+</body>
+</html>
+
+
